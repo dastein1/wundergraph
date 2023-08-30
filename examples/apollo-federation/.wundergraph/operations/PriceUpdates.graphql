@@ -1,7 +1,0 @@
-subscription {
-	updatedPrice {
-		upc
-		price
-		name
-	}
-}

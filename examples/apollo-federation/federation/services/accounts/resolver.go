@@ -7,9 +7,6 @@ import (
 
 type Resolver struct{}
 
-func (r *Resolver) Entity() EntityResolver {
-	return &entityResolver{r}
-}
 func (r *Resolver) Query() QueryResolver {
 	return &queryResolver{r}
 }
